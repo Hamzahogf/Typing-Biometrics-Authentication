@@ -17,3 +17,5 @@ decoder neural network is trained to verify user identity
 by analyzing the relationships between these embeddings.
 This architecture is specifically designed to enable reliable
 authentication for new users with limited enrolled data.
+
+--full report paper : https://drive.google.com/file/d/1TreRtoQ83w-eIhbJ1N5Bq_1IkHv2KC6U/view?usp=drive_link
