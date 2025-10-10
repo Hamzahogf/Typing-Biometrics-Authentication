@@ -1,0 +1,11 @@
+encoder_weights.weights.h5
+fixed-text.csv
+free-text.csv
+loss.txt
+datasets/
+UB_keystroke_dataset/
+UB_mouse_and_events_dataset/
+users/
+trained_encoder.h5
+trained_verification_nn.h5
+verification_nn_weights.weights.h5
