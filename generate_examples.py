@@ -17,7 +17,7 @@ class utils:
             one_hot = np.zeros((len(indices), n_classes))
             one_hot[np.arange(len(indices)), indices] = 1
             return one_hot
-        
+         
     @staticmethod
     def one_hot_to_index(one_hot):
             return np.argmax(one_hot, axis=1) if one_hot.ndim > 1 else np.argmax(one_hot)
