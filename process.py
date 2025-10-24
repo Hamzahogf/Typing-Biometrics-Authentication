@@ -7,7 +7,7 @@ FREE_TEXT_FILE = "free-text.csv"
 FIXED_TEXT_FILE = "fixed-text.csv" 
 OUTPUT_DIR = "users"
 
-os.makedirs(OUTPUT_DIR, exist_ok=True)
+os.makedirs(OUTPUT_DIR, exist_ok=True) 
 
 # === READ FILES ===
 df_free = pd.read_csv(FREE_TEXT_FILE, low_memory=False)
