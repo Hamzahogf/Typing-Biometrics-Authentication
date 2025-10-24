@@ -3,7 +3,7 @@ import os
 import argparse
 import random
 
-import numpy as np
+import numpy as np 
 from tqdm import tqdm
 import h5py
 
