@@ -4,7 +4,7 @@ import argparse
 import random
 
 import numpy as np 
-from tqdm import tqdm
+from tqdm import tqdm 
 import h5py
 
 # Add the current directory to path so utils can be .
