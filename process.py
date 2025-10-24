@@ -4,7 +4,7 @@ import numpy as np
 
 # === INPUT ===
 FREE_TEXT_FILE = "free-text.csv"
-FIXED_TEXT_FILE = "fixed-text.csv"
+FIXED_TEXT_FILE = "fixed-text.csv" 
 OUTPUT_DIR = "users"
 
 os.makedirs(OUTPUT_DIR, exist_ok=True)
