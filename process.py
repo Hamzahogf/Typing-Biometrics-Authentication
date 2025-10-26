@@ -11,7 +11,7 @@ os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 # === READ FILES ===
 df_free = pd.read_csv(FREE_TEXT_FILE, low_memory=False)
-df_fixed = pd.read_csv(FIXED_TEXT_FILE, low_memory=False)
+df_fixed = pd.read_csv(FIXED_TEXT_FILE, low_memory=False) 
 
 # clean column names (remove trailing spaces)
 df_free.columns = df_free.columns.str.strip()
