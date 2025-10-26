@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 
 # === INPUT ====
-FREE_TEXT_FILE = "free-text.csv"
+FREE_TEXT_FILE = "free-text.csv" 
 FIXED_TEXT_FILE = "fixed-text.csv"
 OUTPUT_DIR = "users"
 
