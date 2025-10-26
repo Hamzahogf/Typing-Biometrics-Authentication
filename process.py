@@ -38,7 +38,7 @@ for user_id, group in df_free.groupby("participant"):
             if not np.isnan(feats).any() and len(feats) == 5:
                 user_file.write(" ".join(map(str, feats)) + "\n")
 
-print("process fixed file")
+print("process fixed file") 
  
 # --- FIXED TEXT ---
 fixed_features = [c for c in df_fixed.columns if c not in ["participant", "session", "repetition", "total time"]]
